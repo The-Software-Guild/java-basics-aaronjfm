@@ -1,6 +1,9 @@
 import java.util.*;
 public class display {
 
+    static int playerOption = 0;
+    static int computerOption = 0;
+
     public static void main(String[] args) {
         displayGame();
     }
@@ -17,13 +20,7 @@ public class display {
         //loop
         while (numberOfRounds > 0) {
 
-            // Ask Player to pick Rock Paper or Scissors
-            System.out.println("Press 1 for Rock, 2 for Paper, and 3 for Scissors");
-            int playerOption = sc.nextInt();
-            System.out.println("Player Selected " + numberToOption(playerOption));
-            // Computer Selects Random Option
-            int computerOption = (int) (Math.random() * (3 - 1)) + 1;
-            System.out.println("Computer Selected " + numberToOption(computerOption));
+            selectHand();
 
             gameplay.winResult(playerOption, computerOption);
 
@@ -79,5 +76,20 @@ public class display {
         else{
             System.out.println("Incorrect command entered, Thank you for playing");
         }
+    }
+
+    public static void selectHand(){
+        // Ask Player to pick Rock Paper or Scissors
+        System.out.println("Press 1 for Rock, 2 for Paper, and 3 for Scissors");
+        Scanner sc = new Scanner(System.in);
+        playerOption = sc.nextInt();
+        if(playerOption != 1 || playerOption != 2 || playerOption != 3){
+            System.out.println("Please select a number between 1 and 3");
+        }
+        System.out.println("Player Selected " + numberToOption(playerOption));
+
+        // Computer Selects Random Option
+        computerOption = (int) (Math.random() * (3 - 1)) + 1;
+        System.out.println("Computer Selected " + numberToOption(computerOption));
     }
 }
