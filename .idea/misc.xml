@@ -6,12 +6,8 @@
         <option value="$PROJECT_DIR$/RockPaperScissorsGame/pom.xml" />
         <option value="$PROJECT_DIR$/Dog Genetics/pom.xml" />
         <option value="$PROJECT_DIR$/HealthyHearts/pom.xml" />
-      </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
         <option value="$PROJECT_DIR$/DogGenetics/pom.xml" />
-      </set>
+      </list>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="openjdk-17" project-jdk-type="JavaSDK">
