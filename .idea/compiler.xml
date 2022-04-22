@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="DogGenetics" />
         <module name="RockPaperScissorsGame" />
+        <module name="SummativeSums" />
+        <module name="DogGenetics" />
         <module name="HealthyHearts" />
       </profile>
     </annotationProcessing>
@@ -15,6 +16,7 @@
       <module name="DogGenetics" target="17" />
       <module name="HealthyHearts" target="17" />
       <module name="RockPaperScissorsGame" target="11" />
+      <module name="SummativeSums" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
