@@ -1,3 +1,5 @@
+package firstAssessment.HealthyHearts;
+
 import java.util.Scanner;
 
 public class heartChecker {

@@ -1,3 +1,5 @@
+package firstAssessment.RockPaperScissors;
+
 public class gameplay {
 
     static int playerWins = 0;

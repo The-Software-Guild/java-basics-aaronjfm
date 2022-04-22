@@ -1,3 +1,5 @@
+package firstAssessment.SummativeSums;
+
 public class SummativeSums {
 
     static int[] test1 = new int[]{ 1, 90, -33, -55, 67, -16, 28, -55, 15 };

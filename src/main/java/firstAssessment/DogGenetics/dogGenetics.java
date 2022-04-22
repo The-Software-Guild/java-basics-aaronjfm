@@ -1,5 +1,8 @@
+package firstAssessment.DogGenetics;
+
 import java.util.*;
 public class dogGenetics {
+
     public static void main(String[] args) {
         displayOutput();
     }
