@@ -6,15 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="RockPaperScissorsGame" />
-        <module name="SummativeSums" />
-        <module name="DogGenetics" />
-        <module name="HealthyHearts" />
+        <module name="java-basics-aaronjfm" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="DogGenetics" target="17" />
       <module name="HealthyHearts" target="17" />
+      <module name="java-basics-aaronjfm" target="11" />
       <module name="RockPaperScissorsGame" target="11" />
       <module name="SummativeSums" target="17" />
     </bytecodeTargetLevel>
