@@ -5,7 +5,7 @@ public class dogGenetics {
     }
 
     static int totalPercentage = 100;
-    static String[] dogBreeds = {"Dalmation", "Golden Retriever", "British Bulldog", "Pug", "French Bulldog", "Poodle", "Dachshund", "Boxer", "Beagle"};
+    static String[] dogBreeds = {"Dalmation", "Golden Retriever", "British Bulldog", "Pug", "French Bulldog", "Poodle", "Dachshund", "Boxer", "Beagle", "Labrador","German Shepherd", "Boxer", "Husky", "Rottweiler", "Shih Tzu"};
 
     public static void displayOutput(){
 
