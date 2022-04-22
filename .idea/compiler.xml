@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Dog Genetics" />
         <module name="RockPaperScissorsGame" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="RockPaperScissorsGame" target="17" />
+      <module name="Dog Genetics" target="17" />
+      <module name="RockPaperScissorsGame" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
