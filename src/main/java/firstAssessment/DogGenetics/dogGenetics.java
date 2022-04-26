@@ -28,7 +28,7 @@ public class dogGenetics {
         int randomIndex = generator.nextInt(dogBreeds.length);
         String chosenDog = dogBreeds[randomIndex];
 
-        // Remove
+        // Remove selected dog from array
         String[] anotherArray = new String[dogBreeds.length - 1];
         for (int i = 0, k = 0; i < dogBreeds.length; i++) {
             if (i == randomIndex) {
